@@ -124,7 +124,7 @@ cd teamgramd/bin
 #### Get source code
 
 ```
-git clone https://github.com/teamgram/teamgram-server.git
+git clone https://github.com/test7ccc/teamgram-server.git
 cd teamgram-server
 ```
 
