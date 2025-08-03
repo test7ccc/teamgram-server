@@ -1,2 +1,8 @@
 INSERT INTO users (id, user_type, access_hash, secret_key_id, first_name, last_name, username, phone, country_code, verified, support, scam, fake, premium, about, state, is_bot, account_days_ttl, photo_id, restricted, restriction_reason, archive_and_mute_new_noncontact_peers, emoji_status_document_id, emoji_status_until, deleted, delete_reason, created_at, updated_at) VALUES
-(777000, 4, 6599886787491911851, 6895602324158323006, 'Teamgram', '', 'teamgram', '42777', '', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', '2018-09-25 13:43:11', '2021-12-17 12:40:51');
+(777000, 4, 6599886787491911851, 6895602324158323006, 'Teamgram', '', 'teamgram', '42777', '', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', '2018-09-25 13:43:11', '2021-12-17 12:40:51'),
+-- Add 5 test users for Hong Kong
+(777001, 5, 1234567890123456789, 9876543210987654321, 'TestUser1', '', 'testuser1', '85260675871', 'HK', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', NOW(), NOW()),
+(777002, 5, 2234567890123456789, 8876543210987654321, 'TestUser2', '', 'testuser2', '85260675872', 'HK', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', NOW(), NOW()),
+(777003, 5, 3234567890123456789, 7876543210987654321, 'TestUser3', '', 'testuser3', '85260675873', 'HK', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', NOW(), NOW()),
+(777004, 5, 4234567890123456789, 6876543210987654321, 'TestUser4', '', 'testuser4', '85260675874', 'HK', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', NOW(), NOW()),
+(777005, 5, 5234567890123456789, 5876543210987654321, 'TestUser5', '', 'testuser5', '85260675875', 'HK', 1, 0, 0, 0, 0, '', 0, 0, 180, 0, 0, '', 0, 0, 0, 0, '', NOW(), NOW());
